@@ -1,0 +1,24 @@
+.footer-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.8rem;
+  color: var(--neutral-500);
+  font-size: 0.75rem;
+}
+
+.copy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.75rem 0;
+  gap: 0.8rem;
+  color: var(--neutral-500);
+  font-size: 0.75rem;
+}
+
+.copy select {
+  background: transparent;
+  border: 0;
+  color: var(--neutral-500);
+}
